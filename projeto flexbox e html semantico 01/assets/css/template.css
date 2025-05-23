@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center; /*centraliza a Div*/
+    height: 120px;
+}
+.conteiner{
+    justify-content: space-between; /*coloca um conteudo de na direita e outra a esquerda*/
+    display: flex;
+    width: 990px;
+    background-color: aquamarine;
+}
+.logo{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.menu{
+
+}
