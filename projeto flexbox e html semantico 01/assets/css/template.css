@@ -11,13 +11,10 @@ header{
     justify-content: space-between; /*coloca um conteudo de na direita e outra a esquerda*/
     display: flex;
     width: 990px;
-    background-color: aquamarine;
 }
 .logo{
-    background-color: aqua;
     display: flex;
     align-items: center;
-    margin-top: 100px;
 }
 .menu{
     display:flex; /*deixa o conteúdo flexivel*/
@@ -44,4 +41,12 @@ nav a{
 nav .active a, nav a:hover{ /*deixar o efeito como :hover*/
     background-color:#39aae1 ;
     color:aliceblue
+}
+
+/*Aria do primeiro banner*/
+#banner{
+    background-image:url('../images/img1.jpg'); /*adicionado imagem via css*/
+    background-position:center;
+    background-size:cover; /*significa que a imagem ficarar responsiva de acordo do tamanho do aparelho que abri-la*/
+    height:670px; /*para conseguir ver a imagem temos que adicionar uma altura*/
 }
