@@ -20,5 +20,28 @@ header{
     margin-top: 100px;
 }
 .menu{
+    display:flex; /*deixa o conteúdo flexivel*/
+    align-items:center; /*centraliza o conteudo Ul e LI*/
+}
+nav ul,nav li{
+    list-style:none; /*tira todo espaçamento e os pontos do li */
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display:flex; /*deixa o conteúdo ul e li em direção horizontal e fex*/ 
 
+}
+nav a{
+    display:block; /*com esse atributo podemos alterar tamanho e cores e etc...*/
+    padding: 15px; /*deixa o tamanho de 15 px*/
+    text-decoration:none; /*retira a sumblinhação das tags a*/
+    text-transform:uppercase; /*deixa todo as letras maiúsculas mesmo que no html esteja menusculo*/
+    color:#727272;
+    font-family:arial;
+    
+}
+nav .active a, nav a:hover{ /*deixar o efeito como :hover*/
+    background-color:#39aae1 ;
+    color:aliceblue
 }
