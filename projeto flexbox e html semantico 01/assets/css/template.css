@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 body{
     margin: 0;
     padding: 0;
@@ -45,8 +48,86 @@ nav .active a, nav a:hover{ /*deixar o efeito como :hover*/
 
 /*Aria do primeiro banner*/
 #banner{
+    display: flex;
+    justify-content: center;
     background-image:url('../images/img1.jpg'); /*adicionado imagem via css*/
     background-position:center;
     background-size:cover; /*significa que a imagem ficarar responsiva de acordo do tamanho do aparelho que abri-la*/
     height:670px; /*para conseguir ver a imagem temos que adicionar uma altura*/
 }
+/*alinhando as calunas do aria texto 1 e 2*/
+.column{
+    flex-direction: column;
+}
+.aria_texto1{
+    flex: 1; /*deixa o na posição de colunas*/
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.aria_texto1 h1{
+    color:azure;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width:350px;
+}
+.aria_texto1 h2{
+    color:azure;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width:350px;
+    margin-top: 30px;
+}
+.aria_texto2{
+    height: 210px; /*definindo altura para a aria texto2*/ 
+    display:flex;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color:#fff;
+    padding: 20px;    
+}
+.banner1{
+    background-color: #39aae1;
+    
+    
+}
+.banner2{
+    background-color: #0079c7;
+    
+    
+}
+.banner3{
+    background-color:#2b4c99;
+    
+    
+}
+.banner_title{
+    font-size: 21px;
+}
+.banner_desc{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.aria_texto2 a{
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+}
+.banner_horario{
+    display:flex ;
+    justify-content: space-between;
+    border-bottom: 1px solid #727272;
+    padding: 12px 0px;
+}
+
+
