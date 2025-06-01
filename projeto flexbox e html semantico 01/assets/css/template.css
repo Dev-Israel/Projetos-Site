@@ -155,4 +155,27 @@ nav .active a, nav a:hover{ /*deixar o efeito como :hover*/
     background-color: #36a9e1;
     margin-top: 10px;
 }
-
+                /*estilização das noticias*/
+article .news_data{
+    display: flex;
+}
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .news_comments{
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+}
+/*imagem*/
+article .news_thumbnail{
+   
+}
+article .news_thumbnail{
+    
+}
