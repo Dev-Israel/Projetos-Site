@@ -125,9 +125,34 @@ nav .active a, nav a:hover{ /*deixar o efeito como :hover*/
 }
 .banner_horario{
     display:flex ;
-    justify-content: space-between;
+    justify-content: space-between; /*daixa o conteúdo um em cada canto*/
     border-bottom: 1px solid #727272;
     padding: 12px 0px;
 }
-
+               /*Começa aqui o banner 2*/
+#geral{
+    display:flex;
+    justify-content:center;
+}
+#geral section{
+    flex:2; /*deixou o conteúdo mais perto*/
+}
+#geral aside{
+    flex:1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+.widget_title_text{
+    color:#000000;
+    font-size: 21px;
+    font-weight: bold; /*Deixa a fonts grande */
+}
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
 
