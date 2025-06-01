@@ -173,9 +173,36 @@ article .news_comments{
     padding: 10px;
 }
 /*imagem*/
-article .news_thumbnail{
-   
+article .news_thumbnail img{
+   width: 100%;
+   height: auto;
 }
 article .news_thumbnail{
-    
+    margin-top: 30px;
+}
+/*Texto a baixo da imagem*/
+article .news_title{
+    margin-top: 25px;
+    bottom:25px;
+    color: #000000;
+    font-size: 23px;
+}
+article .news_resume{
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px; /*da espaçamento entra as letras do texto */
+}
+article a{
+    text-decoration: none;
+}
+/*organizando as noticias uma ao lado da outra usando o FLex box*/
+.flex{
+    display: flex;
+    flex-wrap: wrap; /*para quebra de linhas dos banners*/
+}
+article{
+    flex:1;
+    min-width: 200px;/*so quebra linha se colocar um tamanho pode ser do seu agrado ou de acordo com o projeto*/
+    margin-right: 20px;
 }
