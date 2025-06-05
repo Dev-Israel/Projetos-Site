@@ -206,3 +206,21 @@ article{
     min-width: 200px;/*so quebra linha se colocar um tamanho pode ser do seu agrado ou de acordo com o projeto*/
     margin-right: 20px;
 }
+
+/*Aria dos aquadrados Azus*/
+article .quadrado1, 
+.quadrado2,
+.quadrado3,
+.quadrado4{
+    margin-top: 30px;
+    width: 113px;
+    height: 112px;
+    background-color: #39aae1;
+    display: flex;
+    justify-content: space-between;
+}
+.widget{
+    flex: 1;
+}
+
+           /*Aria do Roda pé*/
