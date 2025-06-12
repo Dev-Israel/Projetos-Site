@@ -208,19 +208,43 @@ article{
 }
 
 /*Aria dos aquadrados Azus*/
-article .quadrado1, 
-.quadrado2,
-.quadrado3,
-.quadrado4{
-    margin-top: 30px;
+.flex_container {
+    display: flex;
+    gap: 10px; /* espaço entre colunas */
+    margin-top:10px ;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;/*direção da coluna*/
+    gap: 20px; /* espaço entre quadrados na coluna */
+}
+
+.quadrado {
     width: 113px;
     height: 112px;
     background-color: #39aae1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
 }
-.widget{
-    flex: 1;
-}
+           /*Ária das informações*/
+    p{
+        width:240px ;
+        text-align: justify;
+        font-size: 15px;
 
+    }
+    .linha_horizontal{
+        width: 240px;
+        height: 1px;
+        background-color:#727272;
+    }
+    .telefone{
+        font-size: 15px;
+        margin-top:10px;
+
+    }
            /*Aria do Roda pé*/
