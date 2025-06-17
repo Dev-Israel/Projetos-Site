@@ -140,6 +140,9 @@ nav .active a, nav a:hover{ /*deixar o efeito como :hover*/
 #geral aside{
     flex:1;
 }
+.widget{
+    width: 650px;
+}
 .widget_title{
     margin-top: 30px;
     margin-bottom:20px;
@@ -203,7 +206,7 @@ article a{
 }
 article{
     flex:1;
-    min-width: 200px;/*so quebra linha se colocar um tamanho pode ser do seu agrado ou de acordo com o projeto*/
+    min-width:300px;/*so quebra linha se colocar um tamanho pode ser do seu agrado ou de acordo com o projeto*/
     margin-right: 20px;
 }
 
