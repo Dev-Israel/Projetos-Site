@@ -248,6 +248,35 @@ article{
     .telefone{
         font-size: 15px;
         margin-top:10px;
+        margin-bottom: 10px;
 
     }
            /*Aria do Roda pé*/
+footer{
+   background-color:#1e1e1e;
+   display: flex;
+   justify-content:center;
+}
+.aria_banner_bottom{
+    display: flex;
+    width: 980px;
+}
+.banner_bottom1,
+.banner_bottom2,
+.banner_bottom3{
+    flex: 1;
+    color:#fff;
+    padding: 20px; 
+}
+.banner_bottom1{
+    background-color:#39aae1;
+    
+}
+.banner_bottom2{
+    background-color:#0079c7;
+    
+}
+.banner_bottom3{
+    background-color:#2b4c99;
+    
+}
