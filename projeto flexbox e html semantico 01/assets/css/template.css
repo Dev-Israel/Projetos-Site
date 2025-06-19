@@ -259,7 +259,7 @@ footer{
 }
 .aria_banner_bottom{
     display: flex;
-    width: 980px;
+    
 }
 .banner_bottom1,
 .banner_bottom2,
@@ -279,4 +279,15 @@ footer{
 .banner_bottom3{
     background-color:#2b4c99;
     
+}
+        /*Rodapé footer*/
+.footer_area{
+    display: flex; 
+}
+.footer_ariaitem{
+    flex: 1;
+    color: #fff;
+}
+.flexColunm{
+    flex-direction: column;
 }
