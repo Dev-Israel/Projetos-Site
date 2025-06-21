@@ -305,6 +305,7 @@ footer{
     margin-top: 30px;
     font-size: 15px;
     color: #727272;
+    
 }
 .newstexto2,.texto2{
     margin-top: 30px;
@@ -312,6 +313,16 @@ footer{
     font-size: 15px;
     color: #f1eded;
 }
+.newstexto3,.texto3{
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #727272;
+}
+strong{
+    color: #f1eded;
+}
 .text_blue{
+    
     color: #36a9e1;
 }
