@@ -266,7 +266,8 @@ footer{
 .banner_bottom3{
     flex: 1;
     color:#fff;
-    padding: 20px; 
+    padding: 20px;
+    font-size: 20px;
 }
 .banner_bottom1{
     background-color:#39aae1;
@@ -280,6 +281,12 @@ footer{
     background-color:#2b4c99;
     
 }
+.title{
+    font-size:25px;
+}
+.sub_title{
+    font-size: 16px;
+}
         /*Rodapé footer*/
 .footer_area{
     display: flex; 
@@ -290,4 +297,21 @@ footer{
 }
 .flexColunm{
     flex-direction: column;
+}
+.widget_title_text1{
+    font-size: 21px;
+}
+.newtexto1 p{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #727272;
+}
+.newstexto2,.texto2{
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #f1eded;
+}
+.text_blue{
+    color: #36a9e1;
 }
