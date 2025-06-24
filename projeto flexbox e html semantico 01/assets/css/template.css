@@ -295,6 +295,25 @@ footer{
     flex: 1;
     color: #fff;
 }
+.footer_item5{
+    flex: 1;
+    color:#727272;
+    width: 300px;
+}
+.medi_contatos {
+    display:flex ;
+    justify-content: space-between; /*daixa o conteúdo um em cada canto*/
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.footer_item5 a{
+    color:#727272;
+    display: block;
+    text-decoration: none;
+}
+.email{
+    color:#f1eded ;
+}
 .flexColunm{
     flex-direction: column;
 }
@@ -302,6 +321,7 @@ footer{
     font-size: 21px;
 }
 .newtexto1 p{
+    margin-bottom:20px;
     margin-top: 30px;
     font-size: 15px;
     color: #727272;
@@ -319,10 +339,18 @@ footer{
     font-size: 15px;
     color: #727272;
 }
-strong{
+.sublinhado{
     color: #f1eded;
 }
 .text_blue{
-    
+    margin-top: 5px;
     color: #36a9e1;
+}
+.direitos{
+    border-top: 1px solid #2c2c2c;
+    color:#5c5c5c ;
+    height: 40px;
+    line-height:40px;
+    font-size: 12px;
+    margin-top:30px;
 }
