@@ -354,3 +354,23 @@ footer{
     font-size: 12px;
     margin-top:30px;
 }
+/* Aria do @media ou Responsividade */
+@media (max-width: 600px){
+   .aria_texto1 h1{
+    font-size: 55px;
+   } 
+   .aria_texto1 h2{
+    font-size:15px;
+    margin-bottom: 20px;
+   }
+   .aria_texto2{
+    height: auto;
+    flex-direction: column;
+   }
+   .conteiner{
+    flex-direction: column;
+   }
+   #geral{
+   }
+    
+}
