@@ -371,23 +371,19 @@ footer{
         .widget_body{
             flex-direction: column;
         }
-        .widget_title{
-            padding: 90px;
-            margin-top: -90px;
-        }
-        .news_resume{
-            padding:80px;
-            margin-bottom: -80px;
-            
-            font-size: 20px;
-
-        }
-        
         #geral section, #geal aside{
             padding:20px;
         }
+        #geral{
+            flex-direction: column;
+        }
+
+        .widget{
+            width: 500px;
+        }
         .conteiner{
-            flex-direction:column
+            flex-direction:column;
+            
         }
         .aria_banner_bottom{
             flex-direction: column;
@@ -399,5 +395,8 @@ footer{
         }
         .direitos{
             padding: 20px;
+        }
+        header .conteiner{
+            flex-direction: row;
         }
 }
