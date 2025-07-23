@@ -353,8 +353,30 @@ footer{
     font-size: 12px;
     margin-top:30px;
 }
+/*botom para mobiles*/
+.menuMobile{
+    display:none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-right: 20px;
+    
+}
+.mm_line{
+    height: 3px;
+    background-color: #39aae1;
+}
 /* Aria do @media ou Responsividade */
 @media (max-width: 600px){
+        body, html {
+            overflow-x: hidden;
+            width:100%;
+        }
+        img,div,section{
+            max-width: 100%;
+        }
+
         .aria_texto1{
             padding: 20px;
         }
@@ -371,15 +393,16 @@ footer{
         .widget_body{
             flex-direction: column;
         }
-        #geral section, #geal aside{
+        #geral section, #geral aside{
             padding:20px;
+            
         }
         #geral{
             flex-direction: column;
         }
 
         .widget{
-            width: 500px;
+            width: 100%;
         }
         .conteiner{
             flex-direction:column;
@@ -398,5 +421,20 @@ footer{
         }
         header .conteiner{
             flex-direction: row;
+        }
+        nav ul{
+            flex-direction: column;
+            display: none; /*para não aparecer o menu de opções*/
+        }
+        header{
+            height: auto;
+        }
+        .logo{
+            padding-left:20px;
+        }
+        .menuMobile{
+            display:flex;
+            flex-direction:column ;
+            justify-content:space-around ;
         }
 }
