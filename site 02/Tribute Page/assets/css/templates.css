@@ -69,8 +69,35 @@ nav a:hover{
 /*banner secundario*/
 
 #banner_secundario{
-    background-image: url('../images/imagens/logo/logo\ 02.jpg');
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/imagens/logo/logo\ 02.jpg ');
     background-position: center;
     background-size: cover;
-    height: 670px;
+    height: 730px;
+}
+#banner_secundario_01{
+    display: flex;
+    justify-content: center;
+    
+}
+.column{
+    height: 150px;
+    font-family: arial;
+   
+}
+.banner_produtos{
+    flex: 1;
+    color: #0e0d0d;
+    font-size: 23px;
+    font-family: arial;
+    
+}
+.banner_entrega{
+    flex: 1;
+    
+}
+.banner_garantia{
+    padding: 25px;
+    font-size: 30px;
 }
