@@ -12,26 +12,65 @@ header{
 }
 .conteiner{
     display: flex;/*deixar o conteiner flexivel*/
-    justify-content: space-between; /*deixa a Logo e Menu um em um e o outro no outro canto*/
-    width: 80%;
-    background-color: antiquewhite;
-    
-    
+    justify-content:center;
+    width: 990px;
+    margin-top: 10px;
 }
- img{
-    width:90% ;
-    height: 100%;
+img{
+    width: 600px;
 }
-.logo{
-    
+.logomarca{
     display: flex;
     align-items: center;
 }
 .menu{
-
+    
+    display: flex;
+    align-items: center;
+    
 }
 nav ul,nav li{
     list-style:none; /*Remover os pontos do Ul e LI*/
     padding: 0;
     margin: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+    text-decoration: none; /*retirar sublinado*/
+    text-transform:uppercase;
+    color:#474747 ;
+    font-family: arial;
+}
+nav a:hover{
+    background-color: #e0dddd46;
+    color: #727272;
+}
+#menu_principal:hover{
+    
+}
+.inicio{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+/*Menu Principal*/
+
+#menu_principal{
+    display:flex;
+    justify-content: center;
+    padding:20px ;
+}
+
+/*banner secundario*/
+
+#banner_secundario{
+    background-image: url('../images/imagens/logo/logo\ 02.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
 }
